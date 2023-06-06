@@ -43,7 +43,7 @@ nav ul {
   font-weight: normal;
 }
 
-nav > div {
+.navbar-wrapper {
   max-width: 1000px;
   display: flex;
   justify-content: space-between;
@@ -99,12 +99,12 @@ form {
   font-size: 20px;
 }
 
-section {
+article {
   max-width: 1000px;
   margin: 0px auto 50px auto;
 }
 
-section h2 {
+article h2 {
   font-size: 25px;
   text-transform: uppercase;
   font-weight: bold;
