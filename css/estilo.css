@@ -1,0 +1,188 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #f8f6f7;
+}
+
+.site-name {
+  white-space: normal;
+}
+
+.site-name-number {
+  font-size: 35px;
+}
+
+.one {
+  color: #f35926;
+}
+
+.two {
+  color: #fcb929;
+}
+
+.three {
+  color: green;
+}
+
+nav {
+  font-weight: bold;
+  padding: 5px 0px;
+  font-family: sans-serif;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+nav ul {
+  max-width: 1000px;
+  display: flex;
+  gap: 50px;
+  font-weight: normal;
+}
+
+nav > div {
+  max-width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+header {
+  background-image: url(../img/barcos.webp);
+  background-size: cover;
+  background-position-y: bottom;
+  padding: 20px;
+  margin-bottom: 35px;
+  margin-top: 45px;
+}
+
+form {
+  max-width: 1000px;
+  margin: 30px auto 130px auto;
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.form-wrapper {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  justify-content: center;
+  gap: 7px;
+}
+
+.form-title {
+  font-size: 25px;
+  margin-bottom: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.form-button {
+  background-color: #ea3d35;
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.form-fields::placeholder {  
+  font-size: 20px;
+}
+
+section {
+  max-width: 1000px;
+  margin: 0px auto 50px auto;
+}
+
+section h2 {
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.trips-container {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 30px;
+}
+
+.trip {
+  background-color: aqua;
+  padding: 30px 15px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 25px;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+}
+
+.trip-name {
+  display: block;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.852);
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.trip-value {
+  display: block;
+  font-size: 35px;
+  font-weight: bold;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.852);
+}
+
+.button-show-more {
+  border: none;
+  text-transform: uppercase;
+  padding: 8px 35px;
+  border-radius: 50px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.446);
+  cursor: pointer;
+}
+
+.trip-1 {
+  background-image: url(../img/rio.webp);
+}
+
+.trip-2 {
+  background-image: url(../img/bonito.webp);
+}
+
+.trip-3 {
+  background-image: url(../img/sao-paulo.webp);
+}
+
+.trip-4 {
+  background-image: url(../img/foz.webp);
+}
+
+.trip-5 {
+  background-image: url(../img/maceio.webp);
+}
+
+.trip-6 {
+  background-image: url(../img/salvador.webp);
+}
+
+.trip-7 {
+  background-image: url(../img/fortaleza.webp);
+}
+
+.trip-8 {
+  background-image: url(../img/belo-horizonte.webp);
+}
